@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "far-far-this-car"
+version = "0.1.0"
+description = ""
+authors = ["Maksym Holovenko <avgoeid@gmail.com>"]
+readme = "README.md"
+packages = [{include = "far_far_this_car"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+arcade = "^2.6.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
